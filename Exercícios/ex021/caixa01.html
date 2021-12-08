@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: goldenrod;
+            height: 300px;
+            width: 300px;
+            
+            /* modo full */
+            border-width: 10px;
+            border-style: solid;
+            border-color: black;
+
+            border: 10px solid black;/* modo shorthand */
+
+            /* modo full */
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            padding: 10px 10px 10 px 10px;/* modo shorthand */
+
+            /* modo full */
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            /*margin:auto; /* "auto" centraliza*/
+
+            margin: 10px 10px 10px 10px; /* modo shorthand  e se as quatro medidas forem iguais pode colocar apenas um valor. Exemplo:
+            
+            margin: 10px;
+
+            E se colocarmos apenas duas medidas isso irá aplicar apenas nas posições de em cima/debaixo e esquerda/direita. Exemplo: 
+            
+            margin: 10px(emcima/embaixo)  20 px(esquerda/direita)
+
+            E também podemos centralizalas colocando o auto. Exemplo:
+            
+             margin: 10px auto 20 px auto;
+            
+            */
+
+            /* modo full */
+            outline-width: 5px;
+            outline-style: dotted;
+            outline-color: yellow;
+           
+            outline: 5px dotted yellow;/* modo shorthand */
+
+        }
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#"> links são exemplos de caixas inline-level</a> Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+@charset "UTF-8";
+/*Regra @charset caso haja problema com acentuação */
+
+   body{
+    background-color: hsl(69, 81%, 75%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+h1{
+    color:darkblue;
+    background-color:lightgrey;
+}
+h2{
+    color:darkred;
+}
+p{
+    text-align: justify;
+}
+
