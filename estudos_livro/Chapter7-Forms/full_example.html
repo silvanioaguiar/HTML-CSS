@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Formulário</title>
+</head>
+<body>
+    <form action="Exemplo de Formulário">
+        <fieldset>
+            <legend>Seus Dados:</legend> <br>
+            <label for="Nome">Nome</label>
+                <input type="text" name="Nome" id=""> <br>
+            <label for="email">Email</label>
+                <input type="email" name="email" id="">
+            
+        </fieldset> 
+        
+        <fieldset>
+            <legend>Sua Opinião:</legend>
+            <p>Como você tomou conhecimento do nosso serviço? </p>
+            <select name="midias" id="">
+                <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Linkdin">Linkdin</option>
+                <option value="Instagram">Instagram</option>
+                <option value="amigo">Indicado por um amigo</option>
+            </select>
+
+            <p>Você nos visitaria novamente?<br>
+                <input type="radio" name="decisao" id="" value="s" checked>
+                <label for="decisao">Sim</label>
+                <input type="radio" name="decisao" id="" value="n">
+                <label for="decisao">Não</label>
+                <input type="radio" name="decisao" id="" value="t">
+                <label for="decisao">Talvez</label>
+            </p>    
+            <p>Deixe seu comentário: <br>
+                <textarea name="comentario" id="" cols="40" rows="10"></textarea>
+            </p> 
+            
+            <input type="checkbox" name="increva-se" id="">Increva-se para receber atualizações por e-mail
+            <br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
